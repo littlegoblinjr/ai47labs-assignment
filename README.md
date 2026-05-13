@@ -18,7 +18,7 @@ The **AI Movie Recap Generator** handles the entire creative process:
 - **Orchestration**: Python (ThreadPoolExecutor for parallel processing)
 - **Intelligence**: 
   - **Scripting**: GPT-5-Nano (State-of-the-art Storyboard Generation)
-  - **Image Generation**: OpenAI-compatible local/cloud API (gpt-image-1)
+  - **Image Generation**: OpenAI-compatible cloud API (gpt-image-1)
 - **Media Processing**: 
   - **Video**: MoviePy (v2.0+)
   - **Audio**: pyttsx3 (SAPI5 for Windows)
@@ -46,7 +46,6 @@ AI47Labs/
 ### 1. Prerequisites
 - **Python 3.9+**
 - **FFmpeg** (Required by MoviePy)
-- **Local LLM Server** (Optional: LM Studio or Ollama running on `http://127.0.0.1:1234`)
 
 ### 2. Installation
 ```bash
@@ -67,13 +66,12 @@ OPENAI_API_KEY=your_api_key_here
 
 ## 📽️ Usage
 
-1. **Start your local LLM server** (e.g., LM Studio) ensure it's hosting the model on Port 1234.
-2. **Run the main pipeline**:
+1. **Run the main pipeline**:
    ```bash
    python main.py
    ```
-3. **Follow the prompt**: Enter a valid IMDB movie URL when requested.
-4. **Check the output**: The final video will be saved as `movie_recap.mp4`.
+2. **Follow the prompt**: Enter a valid IMDB movie URL when requested.
+3. **Check the output**: The final video will be saved as `movie_recap.mp4`.
 
 ## 🎨 Creative Constraints
 The pipeline is pre-configured with strict cinematic requirements:
