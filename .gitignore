@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.mp4
+*.mp3
+*.wav
+scene_images/
+scene_audios/
+generated_videos/
+.vscode/
+venv/
+.python-version

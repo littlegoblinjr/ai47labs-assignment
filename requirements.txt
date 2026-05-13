@@ -1,0 +1,7 @@
+langchain-openai
+openai
+pydantic
+pyttsx3
+moviepy>=2.0.0
+python-dotenv
+requests
