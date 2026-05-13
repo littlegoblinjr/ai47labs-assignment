@@ -2,7 +2,7 @@
 
 An automated production pipeline that transforms any IMDB URL into a high-quality, cinematic 2-minute movie recap video. 
 
-This project orchestrates local LLMs, AI image generation, and offline Text-to-Speech to create professional-grade content with minimal human intervention.
+This project orchestrates LLMs, AI image generation, and offline Text-to-Speech to create professional-grade content with minimal human intervention.
 
 ## 🚀 Overview
 
